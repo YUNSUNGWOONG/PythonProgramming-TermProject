@@ -67,7 +67,7 @@ class SampleApp(tk.Tk):
         # 비밀번호 먼저 입력
         password = tk.Tk()
 
-        label = tk.Label(password, text="관리자 비밀번호를 입력하세요:")
+        label = tk.Label(password, text="관리자 비밀번호를 입력해주세요:")
         label.pack()
 
         entry = tk.Entry(password, show="*")
@@ -75,7 +75,7 @@ class SampleApp(tk.Tk):
 
         def check_password():
             password_entry = entry.get()
-            if password_entry == "admin":
+            if password_entry == "admin": #관리자모드 패스워드는 "admin"임
                 password.destroy()
                 messagebox.showinfo("성공", "관리자모드를 실행합니다.")
 

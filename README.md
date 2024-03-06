@@ -1,93 +1,45 @@
-# Project Title
+# Knu_Studycafe
 
-One Paragraph of the project description
+python의 tkinter라이브러리를 활용하여 만든 스터디카페 키오스크입니다.
 
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
+
 
 ## Getting Started
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+`.vscode/launch.json`을 보시면 entry.py로 애플리케이션을 실행하실 수 있습니다.
 
-### Prerequisites
+### Prerequisites(전제조건)
 
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+가상환경 구축후 pip를 업데이트 및 라이브러리 설치
 
-### Installing
+필요한 라이브러리
 
-A step by step series of examples that tell you how to get a development
-environment running
+- tk(tkinter)
+- datetime
 
-Say what the step will be
+```python
+pip install virtualenv
+virtualenv env
+activate
+pip install --upgrade pip setuptools
+pip install tk
+pip install datetime
+```
 
-    Give the example
 
-And repeat
 
-    until finished
 
-End with an example of getting some data out of the system or using it
-for a little demo
 
-## Running the tests
+## Version
 
-Explain how to run the automated tests for this system
+python3.9.12
 
-### Sample Tests
 
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+  - **YUNSUNGWOONG(JackSmith)** - *Kun_StudyCafe_Kiosk* -
+    [YUNSUNGWOONG](https://github.com/YUNSUNGWOONG)
 
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
 
-## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
